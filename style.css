@@ -452,5 +452,8 @@ background-color: #a4eb43;
     justify-content: center;
     position: relative;
 }
-
+.media_content {
+    margin: 0px auto;
+width: 300px;
+}
 
