@@ -1,28 +1,25 @@
 body {
     box-sizing: border-box;
 }
-
+/* *******************************************************Navbar******************************************************* */
 li {
      margin-right: 30px;
      list-style-type: none;
      padding-top: 5px;
 }
-.navbar_theme {
+
+.nav-theme {
     background-color: #fff;
     box-shadow: 0 2px 2px 0 rgba(0,0,0,.1);
-    height: auto;
-    z-index: 1000!important;
 }
 
+.nav-list
+{
+    cursor: pointer;
+}
 
 .btn-nav {
-    margin-right: 30px;
-    border-radius: 5px;
     font-size: small;
-    color: white;
-    padding: 7px 10px;
-    border: 1px solid white;
-
 }
 
 .btn-nav1 {
@@ -32,15 +29,17 @@ li {
 .btn-nav2 {
     background-color: #8DC63F;
 }
+
 .hamburger {
-    background-color: white;
     border: 1px solid gray;
-    margin-right: 20px;
 }
+
+
+/* *************************************************container1****************************************** */
+
 
 .text1-cont1{
     color: #262626;
-    font-size: 40px;
 }
 
 .text2.con1{
@@ -53,27 +52,23 @@ color:#0D6DB7;
 
 .btn-cont1 {
     border: 1px solid grey;
-    padding: 10px 20px;
-    margin-top: 20px;
     width: fit-content;
-    border-radius: 2px;
 }
 
+/* *************************************************container2****************************************** */
+
 .container2 {
-    padding: 35px 25px;
     background-color: #F0FCDB;
 
 }
 
 .general, .Rs {
-    padding: 15px 25px;
+    padding: 15px 20px;
     background-color: #424242;
-    color: white;
-    border-radius: 4px;
 }
 
 .cont2-div {
-    padding: 15px 25px;
+    padding: 15px 20px;
     background-color: white;
     color: black;
     border-radius: 4px;
@@ -82,9 +77,6 @@ color:#0D6DB7;
 
 .quick-btn {
     background-color: #8DC63F;
-    border-radius: 4px;
-    color: white;
-    font-weight: bold;
 border: 1px solid #8DC63F;
 }
 
@@ -93,166 +85,89 @@ border: 1px solid #8DC63F;
     color: white;
     font-size: large;
     transition: background-color 1.2s ease-out;
-
 }
 
 .quick-btn:hover{
     transition: background-color 1.2s ease-out;
     font-size: large;
 }
+/* *************************************************container5****************************************** */
 
 .cont5-box {
     background-color: rgba(182,239,73,.2);
-    border-radius: 10px;
     color: #424242;
-    margin-top: 40px;
-    padding: 20px;
-    text-align: center;
 }
 
 .cont5-img {
-    height: 70px;
+     height: 70px;
     width: 70px;
-    object-fit: contain;
 }
-
-
-.cont5-text {
-    margin-top: 10px;
-}
-
-
-.cont5-text-icon {
-    color: rgba(0,0,0,.85);
-    font-size: 16px;
-    line-height: 1.5;
-    margin-bottom: 0.5em;
-} 
 
 .cont5-box:hover {
     transition: background-color 1.0s ease-out;
     font-size: xx-large;
 }
 
-.container6 {
-    margin-top: 30px;
-}
 
-.cont6-box {
+/* *************************************************container6****************************************** */
+
+
+.cont6-box, .cont6-img {
     cursor: pointer;
     height: 300px;
-    margin-bottom: 10px;
-    position: relative;
     width: 100%;
-    color: #fff;
-
-}
-
-.cont6-img {
-    border-radius: 10px;
-    height: 300px;
-    object-fit: cover;
-    width: 100%;
-
 }
 
 .cont6-text {
     background-color: rgba(0,0,0,.6);
-    border-radius: 10px;
-    position: absolute;
-    bottom: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    padding: 10px;
-    width: 100%;
-    height: 100%;
-
 }
 
  .cont6-btn {
     background-color: #8dc63f;
-    border: none;
     font-size: 14px;
-    padding: 10px 30px;
-    width: 100%;
 }
 
 .cont6-btn:hover {
 background-color: #a4eb43;
 }
 
+/* *************************************************container7****************************************** */
 
-.container7 {
-    margin-top: 50px;
-    padding-bottom: 10px;
-}
-
-
-.cont7-img-box {
-    position: relative;
-    width: 100%;
-}
 
 .cont7-img-box img {
     border-top-left-radius: 100px;
     box-shadow: 0 2px 2px 0 rgba(0,0,0,.1);
-    height: 100%;
-    margin-bottom: 20px;
-    object-fit: cover;
-    width: 100%;
 }
 
 
 .cont7-img-text {
-    align-items: center;
     background-color: #8dc63f;
     border-bottom: 1px solid #fff;
     border-right: 1px solid #fff;
     border-top-left-radius: 60px;
-    display: flex;
-    height: 50%;
-    justify-content: center;
     padding: 65px;
-    position: absolute;
-    top: 0;
-    width: 50%;
 }
 
-
-
-.cont7-text-head {
-    width: 40%;
-}
-
-.cont7-text-icon {
-    margin-bottom: 20px;
-}
 .cont7-text-icon div div {
     background-color: #eee;
-    border-radius: 10px;
-    margin-right: 20px;
-    padding: 10px;
 }
+
 .cont7-text-head2 h5 {
     color: #0d6db7;
-    line-height: 15px;
 }
 
 .cont7-text-icon-img {
     height: 30px;
-    object-fit: contain;
     width: 30px;
 }
 
+
+/* *************************************************container7-bottom****************************************** */
+
+
 .container7-bottom {
     background-color: #0d6db7;
-    left: 0;
-    padding-bottom: 100px;
-    padding-top: 100px;
-    position: absolute;
-    position: relative;
-    width: 100%;
+    padding: 100px 0px;
 }
 
 .container7-bottom:before {
@@ -271,163 +186,24 @@ background-color: #a4eb43;
 }
 
 .container7-bottom-img {
-    align-items: center;
-    display: flex;
-}
-
-.container7-bottom-img {
-    background-color: #fff;
     border-radius: 60px;
     height: 120px;
-    justify-content: center;
-    margin-bottom: 20px;
     width: 120px;
 }
-
-.container7-bottom-img img {
-    height: 50%;
-    object-fit: contain;
-    width: 50%;
-}
-
-.container7-bottom-text h2, .container7-bottom-text span {
-    color: #fff!important;
-}
-.container7-bottom-text h2 {
-    margin: 0!important;
-    padding: 0;
-}
-
-.container7-bottom-text {
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-
-
-.cont8-head {
-    text-align: center;
-}
-
-.cont8-head {
-    margin-bottom: 50px;
-    margin-top: 50px;
-}
+/* *************************************************container8***************************************** */
 
 .cont8-head span {
     color: #8dc63f;
 }
-.ant-typography {
-    color: rgba(0,0,0,.85);
-    word-break: break-word;
-}
-.cont8-text {
-    font-size: 16px!important;
-}
+
+
+/* *************************************************container9***************************************** */
 
 .card1 {
     background-color: #8dc63f;
     font-size: smaller;
     padding: 8px 10px;
 }
-
-
-
-
-
-
-.container11 {
-    background-image: url(https://www.saylaniwelfare.com/static/media/guide_back.3a5127e910c15a49f875.png);
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 50px;
-    margin-top: 50px;
-    padding: 50px;
-    text-align: center;
-    background-color: #0d6db7;
-}
-.cont11-input::placeholder {
-    color: wheat;
-}
-
-.cont11-btn {
-    background-color: #fff;
-    color: #666;
-    font-size: 14px;
-    font-weight: 700;
-    margin-top: 5px;
-    padding: 15px 30px;
-    width: 100%;
-}
-
-.footer {
-    background-color: #424242;
-    padding: 50px;
-    position: relative;
-    color: white;
-}
-
-.footer:before {
-    background-image: url(https://www.saylaniwelfare.com/static/media/upcoming_background.a669f19ea2aee3c7e10f.png);
-    background-position: 50% 0;
-    background-repeat: no-repeat;
-    background-size: cover;
-    content: " ";
-    display: block;
-    height: 100%;
-    left: 0;
-    opacity: .1;
-    position: absolute;
-    top: 0;
-    width: 100%;
-}
-
-.footer-icons {
-    margin-top: 20px;
-    padding: 10px;
-    z-index: 1;
-}
-
-.footer-icons div {
-    border-radius: 0;
-    cursor: pointer;
-    margin-left: 10px;
-    z-index: inherit;
-}
-
-
-
-.about ul {
-    padding: 0;
-    z-index: inherit;
-    color: white;
-}
-
-.about ul li {
-    cursor: pointer;
-    line-height: 40px;
-    list-style-type: none;
-}
-
-.footer_contact span {
-    color: #fff!important;
-    font-size: 12px;
-}
-
-.footer_copyright {
-    align-items: center;
-    border-top: 0.2px solid hsla(0,0%,100%,.2);
-    display: flex;
-    justify-content: center;
-}
-
-
-.footer_copyright span {
-    margin-top: 15px;
-}
-
-
 
 .media_banner .media_play {
     cursor: pointer;
@@ -456,4 +232,76 @@ background-color: #a4eb43;
     margin: 0px auto;
 width: 300px;
 }
+
+
+
+/* *************************************************container11***************************************** */
+
+
+.container11 {
+    background-image: url(https://www.saylaniwelfare.com/static/media/guide_back.3a5127e910c15a49f875.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding: 50px;
+    text-align: center;
+    background-color: #0d6db7;
+}
+.cont11-input::placeholder {
+    color: wheat;
+}
+
+.cont11-btn {
+    background-color: #fff;
+    color: #666;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 5px;
+    padding: 15px 30px;
+    width: 100%;
+}
+/* *************************************************footer***************************************** */
+
+.footer {
+    background-color: #424242;
+    padding: 50px;
+}
+
+.footer:before {
+    background-image: url(https://www.saylaniwelfare.com/static/media/upcoming_background.a669f19ea2aee3c7e10f.png);
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: " ";
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: .1;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.footer-icons div {
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.about ul li {
+    cursor: pointer;
+}
+
+.footer_contact span {
+    font-size: 12px;
+}
+
+.footer_copyright {
+    border-top: 0.2px solid hsla(0,0%,100%,.2);
+}
+
+
+
+
 
